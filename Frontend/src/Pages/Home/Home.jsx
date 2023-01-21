@@ -54,7 +54,7 @@ export default function Catalog() {
             <Card maxW="sm">
               <CardBody>
                 <Image
-                  src={"http://localhost:8081/" + i.front_img}
+                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + i.front_img}
                   alt="Green double couch with wooden legs"
                   borderRadius="lg"
                 />
