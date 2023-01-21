@@ -32,7 +32,7 @@ export default function Catalog() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:8081/catalog").then((response) => {
+    axios.get("https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/catalog").then((response) => {
       const { result } = response.data;
       // for (var i = 0; i < result.length; i++) {
       //   lockerId.push({

@@ -48,7 +48,7 @@ export default function Transaction() {
     console.log(formData)
     // {product_name, product_gender, product_category, product_size, product_description, formData}
     try {
-      await axios.put(`http://localhost:8081/image/checkout/2`, formData).then((response) => {
+      await axios.put(`https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/image/checkout/2`, formData).then((response) => {
         const {result} = response.data
         setCheckoutSuccess(result)
         setCheckoutError('')
@@ -60,7 +60,7 @@ export default function Transaction() {
 
 
     try {
-      await axios.put(`http://localhost:8081/locker/checkout/2`, {product_name, product_gender, product_category, product_size, product_description}).then((response) => {
+      await axios.put(`https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/locker/checkout/2`, {product_name, product_gender, product_category, product_size, product_description}).then((response) => {
         const {result} = response.data
         setCheckoutSuccess(result)
         setCheckoutError('')
