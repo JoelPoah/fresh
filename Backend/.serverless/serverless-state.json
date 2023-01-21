@@ -175,7 +175,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/RestApi/dev/1674295338015-2023-01-21T10:02:18.015Z/RestApi.zip"
+                "S3Key": "serverless/RestApi/dev/1674317703467-2023-01-21T16:15:03.467Z/RestApi.zip"
               },
               "Handler": "handler.hello",
               "Runtime": "nodejs12.x",
@@ -193,14 +193,14 @@
               "HelloLogGroup"
             ]
           },
-          "HelloLambdaVersionkiYFcqX5JuqS2dk5haPO9yure39rtn6fcXj1oyeFLXM": {
+          "HelloLambdaVersionp1Xewi41x3K6T9wv5OoqAKWQBDUlyWCtRN2bgQZY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "HelloLambdaFunction"
               },
-              "CodeSha256": "+iuPv3ZaI2MUx+VApximQbXdXohfHM5cfFkfg2+9PXw="
+              "CodeSha256": "d8iN8EnohFYIMnU/cIXLiMl82qidpIv6TNvBJ/05hs4="
             }
           },
           "ApiGatewayRestApi": {
@@ -325,7 +325,7 @@
               "HelloLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1674295333729": {
+          "ApiGatewayDeployment1674317698444": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -388,7 +388,7 @@
           "HelloLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "HelloLambdaVersionkiYFcqX5JuqS2dk5haPO9yure39rtn6fcXj1oyeFLXM"
+              "Ref": "HelloLambdaVersionp1Xewi41x3K6T9wv5OoqAKWQBDUlyWCtRN2bgQZY"
             },
             "Export": {
               "Name": "sls-RestApi-dev-HelloLambdaFunctionQualifiedArn"
@@ -524,7 +524,7 @@
         "timeout": 15,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "HelloLambdaVersionkiYFcqX5JuqS2dk5haPO9yure39rtn6fcXj1oyeFLXM"
+        "versionLogicalId": "HelloLambdaVersionp1Xewi41x3K6T9wv5OoqAKWQBDUlyWCtRN2bgQZY"
       }
     },
     "configValidationMode": "warn",
@@ -544,7 +544,7 @@
     "artifact": "C:\\Users\\LG\\Downloads\\aldrich_web\\Website\\Backend\\.serverless\\RestApi.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/RestApi/dev/1674295338015-2023-01-21T10:02:18.015Z",
+    "artifactDirectoryName": "serverless/RestApi/dev/1674317703467-2023-01-21T16:15:03.467Z",
     "artifact": "RestApi.zip"
   }
 }

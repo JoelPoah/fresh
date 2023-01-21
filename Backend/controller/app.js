@@ -2,6 +2,7 @@
 
 var express = require("express");
 var multer = require("multer");
+const serve = require('serve-static');
 
 var app = express();
 app.use(express.json());
@@ -21,11 +22,10 @@ var catalog = require("../model/catalog");
 var checkout = require("../model/checkout");
 var image = require("../model/image")
 
+// app.use(express.static(path.join(__dirname, './dist')));
+app.use(serve(path.join(__dirname, './dist')));
 
-// return hello world
-app.get("/", function (req, res) {
-	  res.send("Hello World!");
-});
+
 
 
 app.get("/catalog", function (req, res) {
