@@ -8,6 +8,7 @@ frontend:
       commands:
         - npm run dev
   artifacts:
+    baseDirectory: /
     files:
       - '**/*'
   cache:
