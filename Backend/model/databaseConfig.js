@@ -4,9 +4,9 @@ var mysql = require('mysql');
 var dbconnect = {
     getConnection: function () {
         var conn = mysql.createConnection({
-            host: "localhost",
+            host: "aldrich-db-fresh.cc4dukjdyc8y.us-east-1.rds.amazonaws.com",
             user: "root",
-            password: "$y$temCall0226", // Change the password to your password
+            password: "password", // Change the password to your password
             database: "freshlife"
         });     
         return conn;

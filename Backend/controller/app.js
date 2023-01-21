@@ -21,6 +21,13 @@ var catalog = require("../model/catalog");
 var checkout = require("../model/checkout");
 var image = require("../model/image")
 
+
+// return hello world
+app.get("/", function (req, res) {
+	  res.send("Hello World!");
+});
+
+
 app.get("/catalog", function (req, res) {
   catalog.getCatalog(function (err, result) {
     if (!err) {
