@@ -82,7 +82,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[0]?.front_img}
+                  src={"http://localhost:3001/" + itemdetail[0]?.front_img}
                   alt="front image"
                   borderRadius="lg"
                 />
@@ -90,7 +90,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[0]?.back_img}
+                  src={"http://localhost:3001/" + itemdetail[0]?.back_img}
                   alt="back image"
                   borderRadius="lg"
                 />
@@ -133,7 +133,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[1]?.front_img}
+                  src={"http://localhost:3001/" + itemdetail[1]?.front_img}
                   alt="front image"
                   borderRadius="lg"
                 />
@@ -141,7 +141,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[1]?.back_img}
+                  src={"http://localhost:3001/" + itemdetail[1]?.back_img}
                   alt="back image"
                   borderRadius="lg"
                 />
@@ -184,7 +184,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[2]?.front_img}
+                  src={"http://localhost:3001/" + itemdetail[2]?.front_img}
                   alt="front image"
                   borderRadius="lg"
                 />
@@ -192,7 +192,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[2]?.back_img}
+                  src={"http://localhost:3001/" + itemdetail[2]?.back_img}
                   alt="back image"
                   borderRadius="lg"
                 />
@@ -235,7 +235,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[3]?.front_img}
+                  src={"http://localhost:3001/" + itemdetail[3]?.front_img}
                   alt="front image"
                   borderRadius="lg"
                 />
@@ -243,7 +243,7 @@ export default function Catalog() {
               <Carousel.Item>
                 <Image
                   boxSize="350px"
-                  src={"https://k5ywx4t39h.execute-api.us-east-1.amazonaws.com/dev/" + itemdetail[3]?.back_img}
+                  src={"http://localhost:3001/" + itemdetail[3]?.back_img}
                   alt="back image"
                   borderRadius="lg"
                 />
