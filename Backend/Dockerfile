@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package.json /app
 
 # Copy dist folder to the container
-COPY dist /app/controller
+COPY dist /app/dist
 
 # Install the dependencies
 RUN npm install
