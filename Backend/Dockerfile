@@ -7,6 +7,9 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the container
 COPY package.json /app
 
+# Copy dist folder to the container
+COPY dist /app/controller
+
 # Install the dependencies
 RUN npm install
 
