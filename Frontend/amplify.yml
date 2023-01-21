@@ -14,4 +14,4 @@ applications:
           - '**/*'
       cache:
         paths: []
-    appRoot: Frontend/src
+    appRoot: Frontend
